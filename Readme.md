@@ -27,3 +27,20 @@ Each task is validated using automated test cases, mimicking production-level de
 
 ## 📂 Project Structure
 
+
+forage-midas/
+│── src/main/java/
+│ └── com/jpmc/midascore/
+│ ├── controller/ # REST Controllers
+│ ├── component/ # Kafka listeners & services
+│ ├── entity/ # JPA entities
+│ ├── repository/ # Data repositories
+│ └── MidasCoreApplication.java
+│
+│── src/main/resources/
+│ └── application.yml
+│
+│── services/
+│ └── transaction-incentive-api.jar
+│
+│── pom.xml
